@@ -1,5 +1,4 @@
 [AWT PROGRESS](https://sonall12376.github.io/awt_01/)
-TODO:-) (file:///Users/jaspalsinghfarswan/Desktop/todo.html)
 # awt_01
 # Web Technology Lab – Experiments Summary
 
