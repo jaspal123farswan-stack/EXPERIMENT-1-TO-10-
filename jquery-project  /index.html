@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My jQuery Website</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            background: steelblue;
+            margin: 20px auto;
+            display: none;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>jQuery Demo Website</h1>
+
+    <button id="showBtn">Show Box</button>
+    <button id="hideBtn">Hide Box</button>
+    <button id="toggleBtn">Toggle Color</button>
+
+    <div id="box"></div>
+
+    <script>
+        $(document).ready(function() {
+
+            // Show the box
+            $("#showBtn").click(function() {
+                $("#box").slideDown();
+            });
+
+            // Hide the box
+            $("#hideBtn").click(function() {
+                $("#box").slideUp();
+            });
+
+            // Change color on toggle
+            $("#toggleBtn").click(function() {
+                $("#box").animate({
+                    backgroundColor: "#ff5252"
+                }, 500).delay(300).animate({
+                    backgroundColor: "steelblue"
+                }, 500);
+            });
+
+        });
+    </script>
+
+</body>
+</html>
