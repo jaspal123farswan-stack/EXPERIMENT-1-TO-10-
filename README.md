@@ -1,4 +1,4 @@
-[AWT PROGRESS]([https://github.com/jaspal123farswan-stack/EXPERIMENT-1-TO-10-)
+[AWT PROGRESS](https://jaspal123farswan-stack.github.io/EXPERIMENT-1-TO-10-/)
 # awt_01
 # Web Technology Lab – Experiments Summary
 
